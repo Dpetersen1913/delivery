@@ -14,7 +14,7 @@ def name(value):
 
 @app.route('/bob')
 def bob():
-    val = {"value":"bobby firmino"}
+    val = {"value":"bobby firmino liverpool"}
     return jsonify(val)
 
 if __name__ == '__main__':
